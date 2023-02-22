@@ -46,19 +46,19 @@ Class Isbank
             if ( isset($objectarray->Tarih)){
                     $res['statu'] = true;
                     $res['response'] = $objectarray;
-                    echo json_encode($res);
+                    return json_encode($res);
         
             } else {
                 $res['statu'] = false;
                 $res['response'] = $response;
-                echo json_encode($res);
+                return json_encode($res);
             }
             // İşlem başarılı
         
         } catch (Throwable $e) {
             $res['statu'] = false;
             $res['response'] = 'Bağlantı problemi oluştu.';
-            echo json_encode($res);
+            return json_encode($res);
         }
 
     }
