@@ -1,6 +1,12 @@
 <?php
+/*
+Class İş Bank
+@author Selim Hallaç
+@blog selimhallac.com
+*/
+namespace Phpdev;
 
-Class Bankis
+Class Isbank
 {
     
     
