@@ -1,6 +1,6 @@
 <?php
 
-Class Isbank
+Class Bankis
 {
     
     
