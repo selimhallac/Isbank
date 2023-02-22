@@ -1,5 +1,5 @@
 {
-    "name": "phpdev/bankis",
+    "name": "phpdev/isbank",
     "description": "İş Bankası Web Ekstre Hesap Hareketleri",
     "type": "library",
     "autoload": {
